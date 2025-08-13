@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Accordion from "./Components/Accordion.jsx";
 import RandomColor from "./Components/random-color.jsx";
+import StarRating from "../index.jsx";
 
 //import reactLogo from "./assets/react.svg";
 //import viteLogo from "/vite.svg";
@@ -11,10 +12,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>React Accordion</h1>
-      {/*<Accordion />*/}
-      {/*<RandomColor/>*/}
-      <Star rating/>
+      <h1>React Components Demo</h1>
+      <Accordion />
+      <RandomColor/>
+      <StarRating noOfStars={5} />
     </div>
   );
 }
