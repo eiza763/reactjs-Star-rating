@@ -12,8 +12,9 @@ function App() {
   return (
     <div className="App">
       <h1>React Accordion</h1>
-      <Accordion />
-      <RandomColor/>
+      {/*<Accordion />*/}
+      {/*<RandomColor/>*/}
+      <Star rating/>
     </div>
   );
 }
